@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 300px;
+  max-width: 1260px;
+  margin-inline: 40px;
+  /* border: 2px solid red; */
+  margin-top: 10px;
+}
+.navbar {
+  height: 50px;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  width: 5%;
+  /* border: 2px solid blue; */
+}
+.icon a img {
+  max-width: 60px;
+}
+.navs {
+  width: 35%;
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search {
+  width: 25%;
+  /* border: 2px solid salmon; */
+  display: flex;
+  align-items: center;
+}
+.search-bar input{
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    
+}
+.account {
+  width: 25%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.profile i{
+    margin-left: 14px;
+}
+.wishlist i{
+    margin-left: 14px;
+}
+.bag i{
+    margin-left: 30px;
+}
