@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&family=Poppins:ital,wght@0,300;0,400;1,500;1,800&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  border: 2px solid red;
+  margin-top: 10px;
+  height: 800px;
+  display: flex;
+}
+.left {
+  width: 20%;
+  border: 2px solid red;
+  height: 100%;
+}
+.profile-section {
+  width: 80%;
+  margin: auto;
+  border: 2px solid green;
+  height: 125px;
+  margin-top: 5px;
+}
+.profile-section img {
+  max-width: 50%;
+  margin-left: 40px;
+}
+.profile-name h3{
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+.right {
+  width: 75%;
+  border: 2px solid red;
+  height: 100%;
+  margin-left: 25px;
+}
