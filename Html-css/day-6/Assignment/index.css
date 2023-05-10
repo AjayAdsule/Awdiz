@@ -7,6 +7,22 @@
 p {
   font-family: "Roboto", sans-serif;
 }
+h2{
+  font-family: "poppins",sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+}
+h4{
+  font-family: "Roboto",sans-serif;
+  font-weight: 400;
+}
+ul{
+  list-style-type: circle;
+}
+li{
+  font-family: "poppins",sans-serif;
+}
 
 .container {
   width: 80%;
@@ -21,6 +37,7 @@ p {
   border: 2px solid red;
   height: 100%;
 }
+/* this is profile section */
 .profile-section {
   width: 80%;
   margin: auto;
@@ -38,7 +55,24 @@ p {
     font-weight: 500;
     margin-left: 15px;
     margin-top: 10px;
-
+  
+}
+/* this is skills section */
+.section{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    border: 2px solid blue;
+    margin-top: 5px;
+}
+.skills-sub-heading{
+  margin-left: 4px;
+    margin-top: 10px;
+}
+.lists ul{
+  margin-left: 30px;
+  margin-top: 5px;
+  padding: 5px;
 }
 .right {
   width: 75%;
