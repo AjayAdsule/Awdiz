@@ -39,30 +39,31 @@ li{
 }
 /* this is profile section */
 .profile-section {
-  width: 80%;
-  margin: auto;
+ 
   border: 2px solid green;
-  height: 125px;
+  height: 200px;
   margin-top: 5px;
 }
 .profile-section img {
   max-width: 50%;
-  margin-left: 40px;
+  margin-left: 50px;
 }
 .profile-name h3{
     font-family: "Roboto",sans-serif;
     font-size: 16px;
     font-weight: 500;
-    margin-left: 15px;
+    margin-left: 40px;
     margin-top: 10px;
   
 }
+.profile-name p{
+  font-family: "Roboto",sans-serif;
+  font-size: 11px;
+  margin-left: 35px;
+  margin-top: 10px;
+}
 /* this is skills section */
 .section{
-    height: 500px;
-    width: 80%;
-    margin: auto;
-    border: 2px solid blue;
     margin-top: 5px;
 }
 .skills-sub-heading{
@@ -70,7 +71,7 @@ li{
     margin-top: 10px;
 }
 .lists ul{
-  margin-left: 30px;
+  margin-left: 45px;
   margin-top: 5px;
   padding: 5px;
 }
