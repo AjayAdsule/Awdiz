@@ -1,0 +1,56 @@
+.container{
+    width: 80%;
+    margin: auto;
+    border: 2px solid red;
+    display: flex;
+    height: 250px;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 100px;
+    width: 10%;
+    border: 2px solid green;
+    background-color: aqua;
+}
+.box-1{
+    border-radius: 20%;
+}
+.box-2{
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+}
+.box-3{
+    border-radius: 80%;
+    text-align: center;
+}
+.box-4{
+    border-radius: 15px 30px 10px;
+}
+.box-5{
+    border-radius: 5px 16px 30px 10px;
+}
+
+
+.pad{
+    height: 150px;
+    width: 15%;
+    border: 2px solid blue;
+}
+.pad-1{
+    padding: 10px;
+}
+.pad-2{
+    padding: 10px 5px 0px;
+}
+.pad-3{
+    padding: 10px 20px;
+}
+.pad-4{
+    padding: 10px 20px 5px 10px;
+}
+.pad-5{
+    padding: 10px 20px 0px 0px;
+}

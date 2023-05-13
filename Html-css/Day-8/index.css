@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;600;700&family=Open+Sans:wght@400;500;600;800&family=Poppins:ital,wght@0,300;0,400;1,500;1,800&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    /* border: 2px solid red; */
+    /* height: 400px; */
+    margin-top: 10px;
+}
+.sub-container{
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid seagreen; */
+    
+    display: flex;
+}
+h5{
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
+}
+ul{
+    list-style-type: none;
+    line-height: 30px;
+    font-family: "Roboto",sans-serif;
+    color: grey;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+.shopping{
+    width: 15%;
+    /* border: 2px solid red; */
+}
+.useful-lists{
+    margin-top: 20px;
+}
+.experience{
+    width: 15%;
+    /* border: 2px solid red; */
+}
+.mobile-app{
+    width: 30%;
+    /* border: 2px solid red; */
+}
+.mobile-app img{
+    height: 50px;
+    margin-top: 25px;
+}
+.touch{
+    margin-top: 20px;
+}
+.touch-image{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.touch-image img{
+    height: 25px;
+}
+.brand-auth{
+    width:30%;
+    /* border: 2px solid red; */
+}
+.box{
+    width: 85%;
+    height: 65px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.brand-images{
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+.brand-images img{
+    height: 45px;
+}
+.brand-content{
+    padding-top: 6px;
+}
+.brand-content p{
+    display: inline-block;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 500;
+}
+.brand-content span{
+    font-family: "Roboto",sans-serif;
+    color: gray;
+    font-weight: 200;
+}
