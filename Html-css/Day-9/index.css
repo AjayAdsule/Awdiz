@@ -1,0 +1,16 @@
+.none{
+    text-align: center;
+    display: none;
+}
+.dem{
+    width: 800px;
+    border: 2px solid red;
+    height: 80px;
+    margin: auto;
+}
+.demo{
+    max-width: 800px;
+    border: 2px solid red;
+    height: 80px;
+    margin: auto;
+}
