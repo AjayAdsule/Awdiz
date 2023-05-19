@@ -18,8 +18,11 @@ nav{
     display: flex;
     /* width: 70%; */
 }
+.menu{
+    display: none;
+}
 .image{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 20%;
 }
 .image img{
@@ -28,7 +31,7 @@ nav{
     padding-top: 12px;
 }
 .input{
-    border:2px solid red;
+    /* border:2px solid red; */
     width: 65%;
 }
 .input input{
@@ -41,7 +44,7 @@ nav{
 }
 /* this is list section */
 .lists{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
 }
 .lists ul{
@@ -53,7 +56,7 @@ ul{
     list-style-type: none;
 }
 .right{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 40%;
     display: flex;
     justify-content: flex-end;
@@ -63,4 +66,40 @@ ul{
 .right img{
     height: 20px;
     border-radius: 50%;
+}
+@media screen and (max-width:440px){
+    .left{
+        justify-content: space-around;
+    }
+    .lists{
+        display: none;
+    }
+    .input{
+        display: none;
+    }
+    .right{
+        width: 0%;
+        border: none;
+    }
+    .right :nth-child(2){
+        display: none;
+    }
+    .right :nth-child(3){
+        display: none;
+    }
+    .menu{
+        display: block;
+        margin-top: 16px;
+        margin-left: -30px;
+    }
+    .image{
+        width: 20%;
+        margin-left: -15px;
+        border: none;
+    }
+    .image img {
+        width: 61%;
+       
+        padding-top: 9px;
+    }
 }
