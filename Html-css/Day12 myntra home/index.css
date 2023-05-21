@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+   display: flex;
+    border: 2px solid red;
+    height: 800px;
+}
+.left{
+    width: 20%;
+    border: 2px solid green;
+    height: 800px;
+}
+.margin input{
+    margin-bottom: 17px;
+}
+.margin{
+    margin-bottom: 29px;
+    margin-left: 20px;
+}
+.margin h5{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.right{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.card img{
+   height: 211px;
+width: 100%;
+/* margin-left: 29px; */
+   
+}
+.card h4{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.card p{
+    margin-left: 15px;
+}
+.card{
+    width: 17%;
+     border: 2px solid red;
+     margin-left:10px ;
+}

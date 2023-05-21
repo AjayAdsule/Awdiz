@@ -29,6 +29,7 @@ nav{
     width: 35%;
     margin-left: 35px;
     padding-top: 12px;
+    position: sticky;
 }
 .input{
     /* border:2px solid red; */
